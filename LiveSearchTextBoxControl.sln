@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveSearchTextBoxControl", "LiveSearchTextBoxControl\LiveSearchTextBoxControl.csproj", "{7C3DD792-44A2-4286-906B-3855778450E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveSearchTextBoxControlTest", "LiveSearchTextBoxControlTest\LiveSearchTextBoxControlTest.csproj", "{06112F2C-EC66-43DD-847F-208EC699C441}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C3DD792-44A2-4286-906B-3855778450E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C3DD792-44A2-4286-906B-3855778450E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C3DD792-44A2-4286-906B-3855778450E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C3DD792-44A2-4286-906B-3855778450E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06112F2C-EC66-43DD-847F-208EC699C441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06112F2C-EC66-43DD-847F-208EC699C441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06112F2C-EC66-43DD-847F-208EC699C441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06112F2C-EC66-43DD-847F-208EC699C441}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74066C06-546F-4198-B95F-FAC0DB92DF38}
+	EndGlobalSection
+EndGlobal

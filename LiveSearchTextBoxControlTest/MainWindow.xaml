@@ -1,0 +1,28 @@
+﻿<Window
+    x:Class="LiveSearchTextBoxControlTest.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:liveSearchTextBoxControl="clr-namespace:LiveSearchTextBoxControl;assembly=LiveSearchTextBoxControl"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="525"
+    Height="350"
+    DataContext="{Binding RelativeSource={RelativeSource Self}}"
+    mc:Ignorable="d">
+    <Grid>
+        <liveSearchTextBoxControl:LiveSearchTextBox
+            x:Name="FilterTextBox"
+            Height="20"
+            Margin="10,10,10,0"
+            VerticalAlignment="Top"
+            CancelFiltering="LiveSearchTextBox_OnCancelFiltering"
+            DelayAfterPressingKeyInMilliseconds="100"
+            Filter="LiveSearchTextBox_OnFilter"
+            FilterTask="{Binding FilterTask}"
+            HintText="Введите текст для поиска"
+            Text="{Binding FilterText, UpdateSourceTrigger=PropertyChanged}"
+            WaitTillTaskIsCompleted="True" />
+        <ListBox Margin="0,35,0,0" ItemsSource="{Binding Collection}" />
+    </Grid>
+</Window>
