@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>$id$</id>
+    <version>0.1.1.0</version>
+    <title>$title$</title>
+    <authors>Gulnaz Zagrtdinova, Yury Kerbitskov</authors>
+    <owners>Gulnaz Zagrtdinova, Yury Kerbitskov</owners>
+    <projectUrl>https://github.com/kirbex/LiveSearchTextBoxControl</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Very fast asynchronous live search text box control for WPF applications.</description>
+    <releaseNotes>Initial&amp;#x0020;version&amp;#x0020;of&amp;#x0020;control&amp;#x0020;with&amp;#x0020;sample&amp;#x0020;usage&amp;#x0020;application.</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>WPF Control TextBox LiveSearch live search</tags>
+  </metadata>
+</package>
