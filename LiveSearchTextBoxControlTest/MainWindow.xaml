@@ -20,7 +20,7 @@
             DelayAfterPressingKeyInMilliseconds="100"
             Filter="LiveSearchTextBox_OnFilter"
             FilterTask="{Binding FilterTask}"
-            HintText="Введите текст для поиска"
+            HintText="Enter text for search"
             Text="{Binding FilterText, UpdateSourceTrigger=PropertyChanged}"
             WaitTillTaskIsCompleted="True" />
         <ListBox Margin="0,35,0,0" ItemsSource="{Binding Collection}" />
